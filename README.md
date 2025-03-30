@@ -26,7 +26,8 @@ greatest/least element, making partitions of size 0 and n - 1.
 2. A while loop that checks if there are still indices in the stack and 
    pushes new indices onto the stack. On the worst case this will push 
    subarrays onto the stack n times.
-	3. A partitioning for loop that compares elements to the pivot and swaps them 
+
+   3. A partitioning for loop that compares elements to the pivot and swaps them 
        if they are less than the pivot. On the worst case this will compare all 
        elements for a linear runtime (n)
 
